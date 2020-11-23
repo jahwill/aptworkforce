@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Apt WorkForce',
         theme: ThemeData(
+          //primary color
 //          primarySwatch: Colors.blue,
           primaryColor: Color(0XFF7d0552), cursorColor: Color(0XFF7d0552),
           visualDensity: VisualDensity.adaptivePlatformDensity,
