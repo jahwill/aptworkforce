@@ -344,6 +344,7 @@ class _HomePageState extends State<HomePage> {
                                   Material(
                                     color: Colors.transparent,
                                     child: InkWell(
+                                      highlightColor: Colors.transparent,
                                       borderRadius: BorderRadius.circular(3),
                                       onTap: () {
                                         Navigator.push(
@@ -388,6 +389,7 @@ class _HomePageState extends State<HomePage> {
                                   Material(
                                     color: Colors.transparent,
                                     child: InkWell(
+                                      highlightColor: Colors.transparent,
                                       borderRadius: BorderRadius.circular(3),
                                       onTap: () {},
                                       child: Container(
